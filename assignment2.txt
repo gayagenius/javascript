@@ -1,12 +1,31 @@
  
-1.	Declaration: The variable is registered using a given name within the corresponding scope.
+1.Declaration: The variable is registered using a given name within the corresponding scope.
 •	You declare a JavaScript variable with the var keyword: ... After the declaration, the variable has no value (technically it has the value of undefined).
+Example  
+  
+            declaration:   
+ 
+              var x;
 
 
-2.	Initialization: When you declare a variable it is automatically initialized, which means memory is allocated for the variable by the JavaScript engine.
+2.Initialization: When you declare a variable it is automatically initialized, which means memory is allocated for the variable by the JavaScript engine.
 •	So undefined is the initial value of a declared variable.
+Example  
+              initialization: 
+ 
+               x = 5;
 
-3.	Assignment: This is when a specific value is assigned to the variable.
+
+3.Defining/definition of a function means the function simply names the function and specifies what to do when the function is called.
+.              simply its giving a name to a function and specifying what the function is to do when called.
+Example 
+            square(5);
+          :console.log(square(5));
+
+          function square(n) { return n * n; }
+
+
+4.Assignment: This is when a specific value is assigned to the variable.
 Operator Example	Same As
 -=	x -= y	      x = x - y
 *=	x *= y	      x = x * y

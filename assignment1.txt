@@ -1,0 +1,21 @@
+
+DIFFERENCE BETWEEN UNDEFINED AND NULL.
+Undefined means a variable has been declared but has not yet been assigned a value;
+ On the other hand, null is an assignment value. It can be assigned to a variable as a representation of no value. 
+
+Also, undefined and null are two distinct types: undefined is a type itself (undefined) while null is an object.
+
+In JavaScript, undefined means a variable has been declared but has not yet been assigned a value, 
+Examples:
+                   such as: var TestVar; alert (TestVar); //shows undefined alert (typeof TestVar); //shows undefined.
+
+In the first implementation of JavaScript, JavaScript values were represented as a type tag and a value, 
+with the type tag for objects being 0, and null was represented as the NULL pointer (0x00 on most platforms). 
+As a result, null had 0 as a type tag, hence the bogus typeof return value (reference).
+
+                        null !== undefined but null == undefined.
+
+
+
+
+
