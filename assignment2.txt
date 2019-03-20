@@ -16,16 +16,22 @@ Example
                x = 5;
 
 
-3.Defining/definition of a function means the function simply names the function and specifies what to do when the function is called.
-.              simply its giving a name to a function and specifying what the function is to do when called.
-Example 
-            square(5);
-          :console.log(square(5));
 
-          function square(n) { return n * n; }
+3.Defining/definition: of a function means the function simply names the function and specifies what to do when the function is called.
+.              simply its giving a name to a function and specifying what the function is to do when called.
+Example :
+                var x;
+                var x = 1;
+           
+          
+:var x is a declaration because you are not defining what value it holds but you are declaring its existence and the need for memory allocation.
+
+var x = 1 is both declaration and definition but are separated with x being declared in the beginning while its definition comes at the line specified (variable assignments happen inline).
+
 
 
 4.Assignment: This is when a specific value is assigned to the variable.
+
 Operator Example	Same As
 -=	x -= y	      x = x - y
 *=	x *= y	      x = x * y
