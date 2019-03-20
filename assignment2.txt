@@ -17,16 +17,18 @@ Example
 
 
 
-3.Defining/definition: of a function means the function simply names the function and specifies what to do when the function is called.
+3.Defining/definition: of a function means naming the function and specifying what to do when the function is called.
 .              simply its giving a name to a function and specifying what the function is to do when called.
 Example :
-                var x;
-                var x = 1;
-           
+                 
+           	var x=function a(n) {return n>2? n:n*a(n+2); };
+
           
-:var x is a declaration because you are not defining what value it holds but you are declaring its existence and the need for memory allocation.
+NOTE:var x is a declaration because you are not defining what value it holds but you are declaring its existence and the need for memory allocation.
 
 var x = 1 is both declaration and definition but are separated with x being declared in the beginning while its definition comes at the line specified (variable assignments happen inline).
+             var x;
+             var x=1;
 
 
 
