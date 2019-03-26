@@ -1,0 +1,21 @@
+1.Write a function that prints all the fruits from a given list of fruits.
+
+              fruits_list = ["mangoes","bananas","apples","orange","guava"];
+
+
+              function printFruits(fruits_list) {
+                            console.log(fruits_list);
+              }
+
+
+2.Write a function that give a fruit index,it returns the name of a fruit from a list of fruits.
+
+
+                           var fruit_index = prompt("from number 0-4 pick a fruit a day; keep the doctor away");
+
+                            console.log(fruits_list[fruit_index]);
+                            function getFruit(fruits_list,fruit_index) { alert(fruit_list[fruit_index]);}
+                          
+
+
+                       
