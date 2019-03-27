@@ -13,8 +13,11 @@
 
                            var fruit_index = prompt("from number 0-4 pick a fruit a day; keep the doctor away");
 
-                            console.log(fruits_list[fruit_index]);
-                            function getFruit(fruits_list,fruit_index) { alert(fruit_list[fruit_index]);}
+                           function getFruit(fruits_list,fruit_index) { alert(fruit_list[fruit_index]);}
+
+N/B Inorder to call the function,you have to write:
+                           getFruit(fruits_list,fruit_index)
+then, the browser will write whatever fruit is in that in that index.
                           
 
 
