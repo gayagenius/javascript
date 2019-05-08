@@ -1,0 +1,15 @@
+
+let user={
+	name:"Jane Doe",
+	years:20,
+	isStudent:"Yes"
+};
+
+let{name, years:age, isStudent="false"} = user;
+
+console.log(name);          // "Jane Doe"
+console.log(age);             //  20
+console.log(isStudent);   // "Yes"
+
+let ask = (question,yes,no) => (confirm(question))? yes(): no();
+ask ("Do you agree?",() => alert ("You agreed."),()=>alert("You have cancelled the execution."))
