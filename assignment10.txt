@@ -1,0 +1,47 @@
+HTML
+<!DOCTYPE HTML>
+<html>
+<head>
+ <title>Greens Kiosk</title>
+   </head>
+         <body>
+            <h1 id="title">Welcome to Greens Kiosk</h1>
+                  <p>We sell fruits and vegetables</p>
+             <h3 id="upper">Fruits</h3>
+                 <ul id="fruList">
+                      <li>Mangoes</li>
+                      <li>Bananas</li>
+                      <li>Water Melons</li>
+                 </ul>
+            <h3 id="upp">Vegetables</h3>
+                  <ul id="vegList">
+                     <li>Onions</li>
+                   <li>Tomatoes</li>
+                   <li>Kales</li>
+              </ul>
+
+</body>
+</html>
+
+JAVASCRIPT
+var body = document.body;
+body.style.backgroundColor="silver";
+
+var h1 = document.getElementById("title");
+h1.style.color="green";
+
+
+
+document.getElementById("upper").style.textTransform="upperCase";
+document.getElementById("upp").style.textTransform="upperCase";
+
+var fru = document.createElement("li");                 
+var msg = document.createTextNode("kiwi");        
+fru.appendChild(msg);                             
+document.getElementById("fruList").appendChild(fru);  
+
+var veg = document.createElement("li");                 
+var msg = document.createTextNode("cucumber");        
+veg.appendChild(msg);                             
+document.getElementById("vegList").appendChild(veg); 
+
