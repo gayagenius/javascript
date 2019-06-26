@@ -1,0 +1,80 @@
+
+
+Assignment 12.
+
+JavaScript.
+
+ var setColor = ()=>{
+var titleh1 = document.getElementById("title");
+titleh1.style.color =
+titleh1.style.color ==="green"? "silver":"green";
+}
+setInterval(setColor,500);
+var collo = document.getElementsByClassName("collapsible");
+var i;
+for (i = 0; i < collo.length; i++) {
+collo[i].addEventListener("click", function() {
+this.classList.toggle("active");
+var fruList = this.nextElementSibling;
+if (fruList.style.display === "block") {
+fruList.style.display = "none";
+} else {
+fruList.style.display = "block";
+}
+});
+}
+var fru = document.getElementById("name")
+function addFruits() {
+return fru.value
+}
+nat.addEventListener("onclick",()=> alert(addFruits()))
+var colla = document.getElementsByClassName("collapse");
+var i;
+for (i = 0; i < colla.length; i++) {
+colla[i].addEventListener("click", function() {
+this.classList.toggle("active");
+var vegList = this.nextElementSibling;
+if (vegList.style.display === "block") {
+
+HTML.
+
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Greens Kiosk</title>
+</head>
+<body>
+  <h1 id="title">Welcome to Greens Kiosk</h1>
+  <p>We sell fruits and vegetables</p>
+  <button class="collapsible"><h3>Fruits</h3></button>
+  <ul id="fruList">
+    <li>Mangoes</li>
+    <li>Bananas</li>
+    <li>Water Melons</li>
+    <input id="fru" type="text">
+  <button id="fru" onclick=fruList.append(addFruits())>SUBMIT</button>
+  </ul>
+  
+  <button class="collapsible"><h3>Vegetables</h3></button>
+  <ul id="vegList">
+    <li>Onions</li>
+    <li>Tomatoes</li>
+    <li>Kales</li>
+    <input id="veg" type="text">
+  <button id="veg" onclick=fruList.append(addVegList())>SUBMIT</button>
+  </ul>
+</body>
+</html>
+
+
+vegList.style.display = "none";
+} else {
+vegList.style.display = "block";
+}
+});
+}
+var veg = document.getElementById("name")
+function addVegetable() {
+return veg.value
+}
+nat1.addEventListener("onclick",()=> alert(addVegetable()))
