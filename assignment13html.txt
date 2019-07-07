@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<script src="index.js"></script>
+   <title>Greens Kiosk</title>
+  
+</head>
+
+<body>
+   <h1 id="title">Welcome to Greens Kiosk</h1>
+   <p>For fruits and vegetables</p>
+   <h2>Products</h2>
+   <ul id="products">
+       <!-- <script type = "text/javascript">
+            fetch("http://127.0.0.1:5000/products")
+            .then(response => response.json())
+            .then(response => {
+                response.forEach(item => {
+                    var node = document.createElement("li");
+                    var textnode = document.createTextNode(item.name);
+                    node.appendChild(textnode);
+                    document.getElementById("products").appendChild(node);
+                    
+                     })
+                    })
+            </script> -->
+   </ul>
+   <h3>Fruits</h3>
+   <ul id="fruList">
+        <!-- <script type = "text/javascript">
+            fetch("http://127.0.0.1:5000/products/fruits")
+            .then(response => response.json())
+            .then(response => {
+                response.forEach(item => {
+                    var node = document.createElement("li");
+                    var textnode = document.createTextNode(item.name);
+                    node.appendChild(textnode);
+                    document.getElementById("fruList").appendChild(node);
+                    
+                     })
+                    })
